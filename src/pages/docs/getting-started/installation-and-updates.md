@@ -97,11 +97,13 @@ Enter the following content in the file, replacing `/path/to/Downloads` with the
 [Desktop Entry]
 Encoding=UTF-8
 Name=Postman
+Comment=An API platform for building and using APIs
 Exec=/path/to/Downloads/Postman/app/Postman %U
 Icon=/path/to/Downloads/Postman/app/resources/app/assets/icon.png
 Terminal=false
 Type=Application
 Categories=Development;
+SingleMainWindow=true
 ```
 
 > Postman supports the following distributions:
